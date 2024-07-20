@@ -44,3 +44,21 @@ input{
     display: flex;
     align-items: center;
 }
+.inner i{
+    margin-right: 20px;
+}
+.limit>p{
+text-decoration: line-through;
+}
+.upper>p{
+text-decoration: line-through;
+}
+.number>p{
+text-decoration: line-through;
+}
+.spacial>p{
+text-decoration: line-through;
+}
+.lower>p{
+text-decoration: line-through;
+}
