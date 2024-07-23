@@ -83,7 +83,7 @@ function showPassword() {
         }
         else{
             upper.style.color='#9e9e9e'
-            upper.style.textDecoration= 'line-line-through'
+            upper.style.textDecoration= 'line-through'
         }
         if (hasSpecial) {
             special.style.color = "#268600"
