@@ -75,7 +75,7 @@ function showPassword() {
         lower.style.textDecoration= 'none'; }
         else{
             lower.style.color='#9e9e9e'
-            lower.style.textDecoration= 'line-tchrough'
+            lower.style.textDecoration= 'line-through'
         }
         if (hasUpper) {
             upper.style.color = "#268600"
@@ -83,7 +83,7 @@ function showPassword() {
         }
         else{
             upper.style.color='#9e9e9e'
-            upper.style.textDecoration= 'line-tchrough'
+            upper.style.textDecoration= 'line-line-through'
         }
         if (hasSpecial) {
             special.style.color = "#268600"
@@ -91,7 +91,7 @@ function showPassword() {
         }
         else{
             special.style.color='#9e9e9e'
-            special.style.textDecoration= 'line-tchrough'
+            special.style.textDecoration= 'line-through'
         }
         if (hasNumber) {
             number.style.color = "#268600"
@@ -99,7 +99,7 @@ function showPassword() {
         }
         else{
             number.style.color='#9e9e9e'
-            number.style.textDecoration= 'line-tchrough'
+            number.style.textDecoration= 'line-through'
         }
         if (inpValue.length >= 8) {
             letter.style.color = "#268600"
@@ -107,7 +107,7 @@ function showPassword() {
         }
         else{
             letter.style.color='#9e9e9e'
-            letter.style.textDecoration= 'line-tchrough'
+            letter.style.textDecoration= 'line-through'
     }
     
 }
